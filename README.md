@@ -1,4 +1,112 @@
+Implementing Dark Theme Toggle 
 
+A. Styles File to hold an obejct of the colors and associated DOM elements to toggle with the switcher
+
+B. An action to dispatch the toggle, in other words tell the store that we should switch the color mode 
+
+C. A reducer to toggle the color object from the styles file 
+
+I chose to install chakra ui with the following command 
+
+```zsh
+npm i @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4
+```
+
+The output gave me 3 warnings to address 
+
+1.
+```zsh
+npm WARN @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.13.12 requires a peer of @babel/core@^7.13.0 but none is installed. You must install peer dependencies yourself.
+```
+2.
+```zsh
+npm WARN @babel/plugin-proposal-class-static-block@7.14.3 requires a peer of @babel/core@^7.12.0 but none is installed. You must install peer dependencies yourself.
+```
+3.
+```zsh
+npm WARN tsutils@3.21.0 requires a peer of typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta but none is installed. You must install peer dependencies yourself.
+```
+Although the package was installed...
+
+```zsh
++ @emotion/styled@11.3.0
++ @emotion/react@11.4.0
++ framer-motion@4.1.17
++ @chakra-ui/react@1.6.3
+added 112 packages from 77 contributors and audited 1754 packages in 12.856s
+```
+
+... to avoid future complications, I installed the peer dependencies referenced by the warnings.
+
+- @babel/core@^7.12.0
+- @babel/core@^7.13.0
+    [@babel/core@7.14.3](https://www.npmjs.com/package/@babel/core?activeTab=versions)
+
+- typescript@>=2.8.0 and up
+    [typescript@>=4.3.2](https://www.npmjs.com/package/typescript)
+
+
+```zsh
+npm i @babel/core
+```
+
+```zsh
+npm i typescript
+```
+
+With no more warnings, I could move on to the next step in the documentation.
+
+Setting up the <code>ChakraProvider</code> in the application's root, index.js for create-react-app installations.
+
+1. add import statement 
+```JSX
+import { ChakraProvider, extendTheme } from '@chakra-ui/react';
+```
+
+2. define theme
+```JSX
+    const theme = extendTheme({
+        styles: {
+            global: {
+                'html, body': { 'rgb(26,32,44)',
+            },
+        },
+    },
+);
+```
+3. Wrap <code><TodoApp/></code> Component with <code><ChakraProvider></code> wrapper
+
+```JSX
+const rootElement = document.getElementById('root')
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Provider store={store}>
+      <ChakraProvider theme = {theme}>
+      <TodoApp/>
+    </ChakraProvider>
+    </Provider>
+    </React.StrictMode>,
+  rootElement
+);
+```
+
+To install Chakra UI icons enter the following command in the terminal at the project's root directory. 
+
+```ZSH
+npm i @chakra-ui/icons
+```
+
+
+[Chakra-UI > Getting Started](https://chakra-ui.com/docs/getting-started)
+
+[Chakra-UI > Color Mode](https://chakra-ui.com/docs/features/color-mode)
+
+[Dark Mode with React.js & Redux](https://medium.com/@herrerac11/dark-mode-with-react-js-redux-d30680e98de)
+
+[Up & Running with React, Redux Toolkit, Typescript and React Router](https://ogzhanolguncu.com/blog/react-redux-toolkit-with-typescript)
+
+Do I store Image assets in public or src in reactJS?
 
 **WARNING MESSAGE**
 "SharedArrayBuffers (SABs) can be used to construct high-resolution timers. High-resolution timers simplify Spectre attacks on cross-origin resources.

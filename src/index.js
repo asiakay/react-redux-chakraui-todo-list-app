@@ -1,22 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// 1. importing `ChakraProvider` component
+import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 
 import { Provider } from 'react-redux';
 import store from './redux/store';
 
 import TodoApp from "./TodoApp";
 
-
+const theme = extendTheme({
+  styles: {
+    global: {
+      'html, body': 'rgb(26,32,44)',
+    },
+  },
+},
+);
 // import './index.css';
 // // import App from './App';
 // import * as serviceWorker from './serviceWorker';
 
 
 const rootElement = document.getElementById('root')
+
 ReactDOM.render(
+  <React.StrictMode>
     <Provider store={store}>
+      <ChakraProvider theme = {theme}>
       <TodoApp/>
-    </Provider>,
+    </ChakraProvider>
+    </Provider>
+    </React.StrictMode>,
   rootElement
 );
 

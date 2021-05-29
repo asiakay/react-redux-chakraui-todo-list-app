@@ -1,10 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
+
+
 import './App.css';
 
 function App() {
   return (
+      // 2. Use at the root of your app
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -52,7 +55,7 @@ function App() {
         </span>
       </header>
     </div>
-  );
+  )
 }
 
 export default App;
