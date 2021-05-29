@@ -2,9 +2,10 @@ import React from "react";
 import { connect } from "react-redux";
 import cx from "classnames";
 import { toggleTodo } from "../redux/actions";
+import { Center, Box } from "@chakra-ui/react";
 
 const Todo = ({ todo, toggleTodo }) => (
-  <li className="todo-item" onClick={() => toggleTodo(todo.id)}>
+  <Center><Box><li className="todo-item" onClick={() => toggleTodo(todo.id)}>
     {todo && todo.completed ? "👌" : "👋"}{" "}
     <span
       className={cx(
@@ -15,6 +16,8 @@ const Todo = ({ todo, toggleTodo }) => (
       {todo.content}
     </span>
   </li>
+  </Box>
+  </Center>
 );
 
 // export default Todo;

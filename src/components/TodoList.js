@@ -4,8 +4,11 @@ import Todo from "./Todo";
 // import { getTodos } from "../redux/selectors";
 import { getTodosByVisibilityFilter } from "../redux/selectors";
 import { VISIBILITY_FILTERS } from "../constants";
+import { Center, Box } from "@chakra-ui/react";
+
 
 const TodoList = ({ todos }) => (
+  <Center><Box>
   <ul className="todo-list">
     {todos && todos.length
       ? todos.map((todo, index) => {
@@ -13,6 +16,8 @@ const TodoList = ({ todos }) => (
         })
       : "No todos, yay!"}
   </ul>
+  </Box>
+  </Center>
 );
 
 // const mapStateToProps = state => {

@@ -2,6 +2,9 @@ import React from "react";
 import { connect } from "react-redux";
 import { addTodo } from "../redux/actions";
 
+import { Box, Input, Button, Center } from "@chakra-ui/react"
+
+
 class AddTodo extends React.Component {
   constructor(props) {
     super(props);
@@ -20,13 +23,28 @@ class AddTodo extends React.Component {
   render() {
     return (
       <div>
-        <input
+        <Center>
+        <Box 
+          bg="" 
+          w="50%" 
+          p={10} 
+          color="white"
+          textTransform="uppercase"
+
+          >
+        <Input
           onChange={e => this.updateInput(e.target.value)}
           value={this.state.input}
         />
-        <button className="add-todo" onClick={this.handleAddTodo}>
+       <Center> <Button 
+          className="add-todo"
+          size="xs" 
+          onClick={this.handleAddTodo}>
           Add Todo
-        </button>
+        </Button>
+        </Center>
+        </Box>
+        </Center>
       </div>
     );
   }

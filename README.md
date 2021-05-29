@@ -91,12 +91,47 @@ ReactDOM.render(
 );
 ```
 
+Chakra UI uses it's own tags for components. 
+
+unless we update our <input> tag to <Input>, it won't show up!
+
+But first we'll import the component at the top of the file where our form component is housed.
+
+```zsh
+import { Input } from "@chakra-ui/react"
+```
+
+By default the input will span the full width of the page. But changing the width is as simple as wrapping the form component with a box component in the render method. This will behave like a div.  
+
+we'll add the following command to the top of AddTodo.js
+
+```zsh
+import { Box } from "@chakra-ui/react"
+```
+Then we'll wrap our for with <Box></Box>
 To install Chakra UI icons enter the following command in the terminal at the project's root directory. 
 
 ```ZSH
 npm i @chakra-ui/icons
 ```
+Boxes have the option to be styled and  used as buttons, or we can use a button component.
 
+In this case, we'll use a button. 
+
+add the following code to the top of the AddTodo.js file
+
+```JSX 
+import { Button } from "@chakra-ui/react"
+```
+
+The tag we use is <Button></Button>
+
+Centering elements is done differently, too.
+```JSX
+import { Center, Square, Circle } from "@chakra-ui/react"
+```
+
+read more about it in the docs 
 
 [Chakra-UI > Getting Started](https://chakra-ui.com/docs/getting-started)
 
