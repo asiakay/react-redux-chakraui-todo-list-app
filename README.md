@@ -1,3 +1,20 @@
+
+
+**WARNING MESSAGE**
+"SharedArrayBuffers (SABs) can be used to construct high-resolution timers. High-resolution timers simplify Spectre attacks on cross-origin resources.
+To mitigate security risks across browsers, SharedArrayBuffers are gated behind cross-origin isolated contexts starting with Chrome 91 (May 2021). To continue using SharedArrayBuffers, please ensure that this page opts-into cross-origin isolation by setting Cross-Origin-Opener-Policy and Cross-Origin-Embedder-Policy appropriately.
+Note that for each iframe, only the first issue is reported for performance reasons."
+
+5/29 - Registered for SharedArrayBuffers in non-isolated pages on Desktop platforms Trial to be implemented on deployment
+
+Additional Documentation 
+- [Making your website "cross-origin isolated" using COOP and COEP](https://web.dev/coop-coep/)
+
+- [SharedArrayBuffer updates in Android Chrome 88 and Desktop Chrome 92](https://developer.chrome.com/blog/enabling-shared-array-buffer/)
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
