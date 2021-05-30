@@ -62,13 +62,7 @@ The base of this project was built off of the official React Redux [Tutorial: Us
 
 **DEV BUILD WARNING MESSAGE**
 -----------------------------------------------------------
-"SharedArrayBuffers (SABs) can be used to construct     
-high-resolution timers. High-resolution timers simplify  
-Spectre attacks of cross-origin resources.              
-To mitigate security risks across browsers, SharedArrayBuffers are gated behind cross-origin isolated
-contexts starting with Chrome 91 (May 2021). To continue using SharedArrayBuffers, please ensure that this page opts-into cross-origin isolation by setting     Cross-Origin-Opener-Policy and Cross-Origin-Embedder-Policy appropriately.                               
-Note that for each iframe, only the first issue is reported 
-for performance reasons."  
+"SharedArrayBuffers (SABs) can be used to construct high-resolution timers. High-resolution timers simplify Spectre attacks of cross-origin resources. To mitigate security risks across browsers, SharedArrayBuffers are gated behind cross-origin isolated contexts starting with Chrome 91 (May 2021). To continue using SharedArrayBuffers, please ensure that this page opts-into cross-origin isolation by setting Cross-Origin-Opener-Policy and Cross-Origin-Embedder-Policy appropriately. Note that for each iframe, only the first issue is reported for performance reasons."  
 * * *                                
 5/29 - Registered for SharedArrayBuffers in non-isolated    
 pages on Desktop platforms Trial to be implemented during production build and      deployment                                                                                  
