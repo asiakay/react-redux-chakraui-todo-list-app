@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import Todo from "./Todo";
 // import { getTodos } from "../redux/selectors";
 import { getTodosByVisibilityFilter } from "../redux/selectors";
+// eslint-disable-next-line no-unused-vars
 import { VISIBILITY_FILTERS } from "../constants";
 import { Center, Box } from "@chakra-ui/react";
 
