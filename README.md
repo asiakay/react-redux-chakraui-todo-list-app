@@ -74,6 +74,21 @@ pages on Desktop platforms Trial to be implemented during production build and  
 - [SharedArrayBuffer updates in Android Chrome 88 and Desktop Chrome 92](https://developer.chrome.com/blog/enabling-shared-array-buffer/)
 
 
+In order to patch the deprecation and continue using SharedArrayBuffers, we need to input a Web Origin with an https, http, or chrome-extension prefix. 
+
+
+* * * 
+
+At this point, we're ready to deply v.0.0.1 of the application. Because it's a simple single page appliation that doesn't require database integration, to keep things simple with and scalable, I will be deploying to github pages. 
+
+Because I plan on adding more features and updating the UI, I will be deploying using ci/cd for continuous integation and access to scalable solutions offered in the github marketplace. 
+
+Github user [gitname](https://github.com/gitname) offers a useful guide for deploying create-react-app using the node package manager gh-pages.  [link](https://github.com/gitname/react-gh-pages)
+
+
+
+
+
 * * *
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
