@@ -1,5 +1,6 @@
 # Project Description: A simple React Redux todo list application using ChakraUI's darkmode. 
 
+### [Demo Link](https://asiakay.github.io/todo-list-app/)
 
 ## Introducing the Chakra UI component library into a Redux Application. 
 
