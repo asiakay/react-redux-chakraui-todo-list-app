@@ -50,7 +50,7 @@ The base of this project was built off of the official React Redux [Tutorial: Us
 
 
 
-## Additional Articles for Developers written by Developers that were helpful in creating this build. 
+## 🙏🏾 Thanks to the writers of the articles listed below. These resources helped understand the challenges. 
 
 - [Dark Mode with React.js & Redux](https://medium.com/@herrerac11/dark-mode-with-react-js-redux-d30680e98de)
 
@@ -60,6 +60,15 @@ The base of this project was built off of the official React Redux [Tutorial: Us
 
 - [Adding Dark Mode to a React App with Chakra UI](https://www.pluralsight.com/guides/adding-dark-mode-to-a-react-app-with-chakra-ui)
 
+
+## For future reference & planned integrations
+- https://ui.dev/why-react-hooks/
+- https://reactjs.org/docs/code-splitting.html
+- https://reactjs.org/docs/hooks-intro.html#motivation
+- https://reactjs.org/docs/hooks-overview.html
+- https://www.telerik.com/kendo-react-ui/react-hooks-guide/
+- Easy to understand React Hook recipes
+  - https://usehooks.com/
 
 **DEV BUILD WARNING MESSAGE**
 -----------------------------------------------------------
