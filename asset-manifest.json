@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/todo-list-app/static/css/main.4d8c9c87.chunk.css",
-    "main.js": "/todo-list-app/static/js/main.3d084b62.chunk.js",
-    "main.js.map": "/todo-list-app/static/js/main.3d084b62.chunk.js.map",
-    "runtime-main.js": "/todo-list-app/static/js/runtime-main.d4521ec4.js",
-    "runtime-main.js.map": "/todo-list-app/static/js/runtime-main.d4521ec4.js.map",
-    "static/js/2.ccff5cb7.chunk.js": "/todo-list-app/static/js/2.ccff5cb7.chunk.js",
-    "static/js/2.ccff5cb7.chunk.js.map": "/todo-list-app/static/js/2.ccff5cb7.chunk.js.map",
-    "index.html": "/todo-list-app/index.html",
-    "precache-manifest.15ff0358773d29632267cc272e940fc4.js": "/todo-list-app/precache-manifest.15ff0358773d29632267cc272e940fc4.js",
-    "service-worker.js": "/todo-list-app/service-worker.js",
-    "static/css/main.4d8c9c87.chunk.css.map": "/todo-list-app/static/css/main.4d8c9c87.chunk.css.map",
-    "static/js/2.ccff5cb7.chunk.js.LICENSE.txt": "/todo-list-app/static/js/2.ccff5cb7.chunk.js.LICENSE.txt"
+    "main.css": "/react-redux-chakraui-todo-list-app/static/css/main.4d8c9c87.chunk.css",
+    "main.js": "/react-redux-chakraui-todo-list-app/static/js/main.21122f05.chunk.js",
+    "main.js.map": "/react-redux-chakraui-todo-list-app/static/js/main.21122f05.chunk.js.map",
+    "runtime-main.js": "/react-redux-chakraui-todo-list-app/static/js/runtime-main.daa3186e.js",
+    "runtime-main.js.map": "/react-redux-chakraui-todo-list-app/static/js/runtime-main.daa3186e.js.map",
+    "static/js/2.7c93ccce.chunk.js": "/react-redux-chakraui-todo-list-app/static/js/2.7c93ccce.chunk.js",
+    "static/js/2.7c93ccce.chunk.js.map": "/react-redux-chakraui-todo-list-app/static/js/2.7c93ccce.chunk.js.map",
+    "index.html": "/react-redux-chakraui-todo-list-app/index.html",
+    "precache-manifest.a1d283e3cbcdff7a9be6c88085b3750c.js": "/react-redux-chakraui-todo-list-app/precache-manifest.a1d283e3cbcdff7a9be6c88085b3750c.js",
+    "service-worker.js": "/react-redux-chakraui-todo-list-app/service-worker.js",
+    "static/css/main.4d8c9c87.chunk.css.map": "/react-redux-chakraui-todo-list-app/static/css/main.4d8c9c87.chunk.css.map",
+    "static/js/2.7c93ccce.chunk.js.LICENSE.txt": "/react-redux-chakraui-todo-list-app/static/js/2.7c93ccce.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d4521ec4.js",
-    "static/js/2.ccff5cb7.chunk.js",
+    "static/js/runtime-main.daa3186e.js",
+    "static/js/2.7c93ccce.chunk.js",
     "static/css/main.4d8c9c87.chunk.css",
-    "static/js/main.3d084b62.chunk.js"
+    "static/js/main.21122f05.chunk.js"
   ]
 }
