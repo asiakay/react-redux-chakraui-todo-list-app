@@ -2,7 +2,7 @@
   "name": "todo-list-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://asiakay.github.io/todo-list-app",
+  "homepage": "http://asiakay.github.io/react-redux-chakraui-todo-list-app)",
   "dependencies": {
     "@babel/core": "^7.14.3",
     "@chakra-ui/react": "^1.6.3",
