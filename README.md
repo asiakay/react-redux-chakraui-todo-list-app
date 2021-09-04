@@ -50,7 +50,7 @@ The base of this project was built off of the official React Redux [Tutorial: Us
 
 
 
-## 🙏🏾 Thanks to the writers of the articles listed below. These resources helped understand the challenges. 
+## 🙏🏾 Thanks to the writers of the articles listed below. These resources helped me to understand the challenges. 
 
 - [Dark Mode with React.js & Redux](https://medium.com/@herrerac11/dark-mode-with-react-js-redux-d30680e98de)
 
@@ -59,6 +59,8 @@ The base of this project was built off of the official React Redux [Tutorial: Us
 - [Getting Dark Mode to Work Correctly](https://chakra-ui.com/docs/features/color-mode#setup)
 
 - [Adding Dark Mode to a React App with Chakra UI](https://www.pluralsight.com/guides/adding-dark-mode-to-a-react-app-with-chakra-ui)
+
+- [DEMYSTIFYING REACT HOOKS VS REDUX](https://www.imaginarycloud.com/blog/react-hooks-vs-redux/)
 
 
 ## For future reference & planned integrations
@@ -75,7 +77,7 @@ The base of this project was built off of the official React Redux [Tutorial: Us
 "SharedArrayBuffers (SABs) can be used to construct high-resolution timers. High-resolution timers simplify Spectre attacks of cross-origin resources. To mitigate security risks across browsers, SharedArrayBuffers are gated behind cross-origin isolated contexts starting with Chrome 91 (May 2021). To continue using SharedArrayBuffers, please ensure that this page opts-into cross-origin isolation by setting Cross-Origin-Opener-Policy and Cross-Origin-Embedder-Policy appropriately. Note that for each iframe, only the first issue is reported for performance reasons."  
 * * *                                
 5/29 - Registered for SharedArrayBuffers in non-isolated    
-pages on Desktop platforms Trial to be implemented during production build and      deployment                                                                                  
+pages on Desktop platforms Trial to be implemented during production build and deployment                                                                                  
 
 ### Additional Documentation 
 
